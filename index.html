@@ -374,7 +374,7 @@
         linkedin: "https://www.linkedin.com/in/git-push/"
       },
 
-      // 4. Your 4 MP4 Work Videos (Each has its own independent duration & timer)
+      // 4. Your 2 Flagship MP4 Work Videos (Each has its own independent duration & timer)
       videos: [
         {
           src: "1.mp4",
@@ -387,18 +387,6 @@
           title: "OpenAI",
           subtitle: "Mock OpenAI Motion Graphics",
           defaultDuration: 60 // 1:00 independent duration
-        },
-        {
-          src: "video-3.mp4",
-          title: "Kinetic Identity",
-          subtitle: "Brand Motion System",
-          defaultDuration: 38 // 0:38 independent duration
-        },
-        {
-          src: "video-4.mp4",
-          title: "Optical Precision",
-          subtitle: "Hardware Reveal",
-          defaultDuration: 52 // 0:52 independent duration
         }
       ]
     };
@@ -477,7 +465,7 @@
     </section>
 
     <!-- ==========================================================================
-         3. 4 WORK VIDEOS SHOWCASE (#work) — MOBILE & FULLSCREEN OPTIMIZED
+         3. FEATURED WORK SHOWCASE (#work) — MOBILE & FULLSCREEN OPTIMIZED
          ========================================================================== -->
     <section id="work" class="bg-appleGray py-16 sm:py-36 px-4 sm:px-10">
       <div class="max-w-6xl mx-auto">
@@ -485,18 +473,18 @@
         <div class="mb-10 sm:mb-20 flex flex-col sm:flex-row sm:items-end justify-between gap-3 sm:gap-4 px-1">
           <div>
             <p class="text-appleMuted text-xs sm:text-base font-medium tracking-tight uppercase mb-1.5 sm:mb-2">
-              Selected Films
+              Flagship Productions
             </p>
             <h2 class="section-headline text-appleBlack">
               Featured Work.
             </h2>
           </div>
           <p class="text-appleMuted text-sm sm:text-lg max-w-sm leading-relaxed">
-            Tap any film to preview or enter fullscreen to experience our motion work in detail.
+            A curated pair of our signature motion systems. Tap to preview or enter fullscreen.
           </p>
         </div>
 
-        <!-- 4 Video Cards Container -->
+        <!-- 2 Flagship Video Cards Container -->
         <div id="work-cards-list" class="space-y-14 sm:space-y-28">
 
           <!-- CARD 01 -->
@@ -702,200 +690,77 @@
             </div>
           </article>
 
-          <!-- CARD 03 -->
-          <article class="work-item scroll-scale-item" data-index="2">
-            <div class="flex items-start sm:items-baseline justify-between gap-3 mb-3.5 sm:mb-5 px-1">
-              <div class="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-4 min-w-0">
-                <h3 id="work-title-2" class="text-xl sm:text-4xl font-semibold tracking-tight text-appleBlack truncate">
-                  Kinetic Identity
-                </h3>
-                <span id="work-subtitle-2" class="text-sm sm:text-xl text-appleMuted font-normal truncate">
-                  Brand Motion System
-                </span>
-              </div>
-              <span class="text-xs sm:text-base font-medium text-appleMuted tabular-nums shrink-0 pt-1 sm:pt-0">03</span>
+        </div>
+
+        <!-- Curated Studio Capabilities Bento Grid (Completes the section seamlessly) -->
+        <div class="mt-16 sm:mt-28 pt-12 sm:pt-20 border-t border-appleBlack/10">
+          <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-8 sm:mb-12 px-1">
+            <div>
+              <p class="text-appleMuted text-xs sm:text-sm font-medium tracking-tight uppercase mb-1">
+                What We Craft
+              </p>
+              <h3 class="text-2xl sm:text-4xl font-semibold tracking-tight text-appleBlack">
+                Built for launch impact.
+              </h3>
             </div>
+            <p class="text-appleMuted text-sm sm:text-base">
+              Every frame engineered for product clarity and momentum.
+            </p>
+          </div>
 
-            <div class="work-card-media aspect-video w-full" data-player-surface="2">
-              <video
-                id="work-video-2"
-                class="w-full h-full object-cover hidden"
-                playsinline
-                webkit-playsinline
-                preload="metadata"
-                src="video-3.mp4"
-              ></video>
-
-              <canvas id="work-canvas-2" class="w-full h-full block cursor-pointer"></canvas>
-
-              <button
-                type="button"
-                aria-label="Play Video 03"
-                data-center-play="2"
-                class="absolute inset-0 m-auto -translate-y-3 sm:translate-y-0 w-14 h-14 sm:w-24 sm:h-24 rounded-full bg-appleBlack/65 backdrop-blur-md border border-white/20 text-white flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 hover:bg-appleBlue shadow-xl z-10"
-              >
-                <svg class="w-6 h-6 sm:w-9 sm:h-9 translate-x-0.5 fill-current" viewBox="0 0 24 24">
-                  <path d="M8 5.14v14l11-7-11-7z"/>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+            <!-- Pillar 01 -->
+            <div class="bg-appleWhite rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-appleBlack/5 shadow-sm flex flex-col justify-between">
+              <div class="w-10 h-10 rounded-full bg-appleBlue/10 text-appleBlue flex items-center justify-center mb-6">
+                <svg class="w-5 h-5 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
-              </button>
-
-              <div
-                class="apple-video-bar absolute bottom-2.5 sm:bottom-6 inset-x-2.5 sm:inset-x-6 px-2.5 sm:px-5 py-1.5 sm:py-3 flex items-center gap-2 sm:gap-4 z-20"
-                data-control-bar="2"
-              >
-                <button
-                  type="button"
-                  data-play-toggle="2"
-                  aria-label="Play or Pause Video 3"
-                  class="apple-play-btn w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shrink-0"
-                >
-                  <svg data-icon-play="2" class="w-3.5 h-3.5 sm:w-5 sm:h-5 translate-x-0.5 fill-current" viewBox="0 0 24 24">
-                    <path d="M8 5.14v14l11-7-11-7z"/>
-                  </svg>
-                  <svg data-icon-pause="2" class="w-3.5 h-3.5 sm:w-5 sm:h-5 fill-current hidden" viewBox="0 0 24 24">
-                    <path d="M6 5h4v14H6V5zm8 0h4v14h-4V5z"/>
-                  </svg>
-                </button>
-
-                <div class="text-[11px] sm:text-sm font-medium text-white/90 tabular-nums shrink-0 min-w-[34px] sm:min-w-[86px] text-center">
-                  <span data-current-time="2">0:00</span>
-                  <span class="hidden sm:inline text-white/40 mx-0.5">/</span>
-                  <span data-duration-time="2" class="hidden sm:inline">0:38</span>
-                </div>
-
-                <div
-                  class="timeline-scrubber flex-1 min-w-[60px]"
-                  data-timeline="2"
-                  role="slider"
-                  aria-label="Video 3 Timeline"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-valuenow="0"
-                >
-                  <div class="timeline-track">
-                    <div class="timeline-fill" data-timeline-fill="2">
-                      <div class="timeline-thumb"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <span data-duration-time-mobile="2" class="sm:hidden text-[11px] font-medium text-white/60 tabular-nums shrink-0">0:38</span>
-
-                <button
-                  type="button"
-                  data-fullscreen-toggle="2"
-                  aria-label="Toggle Fullscreen Video 3"
-                  title="Toggle Fullscreen"
-                  class="video-icon-btn w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center shrink-0"
-                >
-                  <svg data-fs-enter="2" class="w-4 h-4 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/>
-                  </svg>
-                  <svg data-fs-exit="2" class="w-4 h-4 stroke-current hidden" fill="none" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>
-                  </svg>
-                </button>
+              </div>
+              <div>
+                <h4 class="text-lg sm:text-xl font-semibold tracking-tight text-appleBlack mb-2">
+                  Launch Films &amp; Reveals
+                </h4>
+                <p class="text-sm sm:text-base text-appleMuted leading-relaxed">
+                  High-converting keynote films and product reveals paced to hold attention from the first second.
+                </p>
               </div>
             </div>
-          </article>
 
-          <!-- CARD 04 -->
-          <article class="work-item scroll-scale-item" data-index="3">
-            <div class="flex items-start sm:items-baseline justify-between gap-3 mb-3.5 sm:mb-5 px-1">
-              <div class="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-4 min-w-0">
-                <h3 id="work-title-3" class="text-xl sm:text-4xl font-semibold tracking-tight text-appleBlack truncate">
-                  Optical Precision
-                </h3>
-                <span id="work-subtitle-3" class="text-sm sm:text-xl text-appleMuted font-normal truncate">
-                  Hardware Reveal
-                </span>
-              </div>
-              <span class="text-xs sm:text-base font-medium text-appleMuted tabular-nums shrink-0 pt-1 sm:pt-0">04</span>
-            </div>
-
-            <div class="work-card-media aspect-video w-full" data-player-surface="3">
-              <video
-                id="work-video-3"
-                class="w-full h-full object-cover hidden"
-                playsinline
-                webkit-playsinline
-                preload="metadata"
-                src="video-4.mp4"
-              ></video>
-
-              <canvas id="work-canvas-3" class="w-full h-full block cursor-pointer"></canvas>
-
-              <button
-                type="button"
-                aria-label="Play Video 04"
-                data-center-play="3"
-                class="absolute inset-0 m-auto -translate-y-3 sm:translate-y-0 w-14 h-14 sm:w-24 sm:h-24 rounded-full bg-appleBlack/65 backdrop-blur-md border border-white/20 text-white flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 hover:bg-appleBlue shadow-xl z-10"
-              >
-                <svg class="w-6 h-6 sm:w-9 sm:h-9 translate-x-0.5 fill-current" viewBox="0 0 24 24">
-                  <path d="M8 5.14v14l11-7-11-7z"/>
+            <!-- Pillar 02 -->
+            <div class="bg-appleWhite rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-appleBlack/5 shadow-sm flex flex-col justify-between">
+              <div class="w-10 h-10 rounded-full bg-appleBlue/10 text-appleBlue flex items-center justify-center mb-6">
+                <svg class="w-5 h-5 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
                 </svg>
-              </button>
-
-              <div
-                class="apple-video-bar absolute bottom-2.5 sm:bottom-6 inset-x-2.5 sm:inset-x-6 px-2.5 sm:px-5 py-1.5 sm:py-3 flex items-center gap-2 sm:gap-4 z-20"
-                data-control-bar="3"
-              >
-                <button
-                  type="button"
-                  data-play-toggle="3"
-                  aria-label="Play or Pause Video 4"
-                  class="apple-play-btn w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shrink-0"
-                >
-                  <svg data-icon-play="3" class="w-3.5 h-3.5 sm:w-5 sm:h-5 translate-x-0.5 fill-current" viewBox="0 0 24 24">
-                    <path d="M8 5.14v14l11-7-11-7z"/>
-                  </svg>
-                  <svg data-icon-pause="3" class="w-3.5 h-3.5 sm:w-5 sm:h-5 fill-current hidden" viewBox="0 0 24 24">
-                    <path d="M6 5h4v14H6V5zm8 0h4v14h-4V5z"/>
-                  </svg>
-                </button>
-
-                <div class="text-[11px] sm:text-sm font-medium text-white/90 tabular-nums shrink-0 min-w-[34px] sm:min-w-[86px] text-center">
-                  <span data-current-time="3">0:00</span>
-                  <span class="hidden sm:inline text-white/40 mx-0.5">/</span>
-                  <span data-duration-time="3" class="hidden sm:inline">0:52</span>
-                </div>
-
-                <div
-                  class="timeline-scrubber flex-1 min-w-[60px]"
-                  data-timeline="3"
-                  role="slider"
-                  aria-label="Video 4 Timeline"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-valuenow="0"
-                >
-                  <div class="timeline-track">
-                    <div class="timeline-fill" data-timeline-fill="3">
-                      <div class="timeline-thumb"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <span data-duration-time-mobile="3" class="sm:hidden text-[11px] font-medium text-white/60 tabular-nums shrink-0">0:52</span>
-
-                <button
-                  type="button"
-                  data-fullscreen-toggle="3"
-                  aria-label="Toggle Fullscreen Video 4"
-                  title="Toggle Fullscreen"
-                  class="video-icon-btn w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center shrink-0"
-                >
-                  <svg data-fs-enter="3" class="w-4 h-4 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/>
-                  </svg>
-                  <svg data-fs-exit="3" class="w-4 h-4 stroke-current hidden" fill="none" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>
-                  </svg>
-                </button>
+              </div>
+              <div>
+                <h4 class="text-lg sm:text-xl font-semibold tracking-tight text-appleBlack mb-2">
+                  Kinetic Brand Systems
+                </h4>
+                <p class="text-sm sm:text-base text-appleMuted leading-relaxed">
+                  Cohesive motion languages, custom typography physics, and modular assets built for modern teams.
+                </p>
               </div>
             </div>
-          </article>
 
+            <!-- Pillar 03 -->
+            <div class="bg-appleWhite rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-appleBlack/5 shadow-sm flex flex-col justify-between">
+              <div class="w-10 h-10 rounded-full bg-appleBlue/10 text-appleBlue flex items-center justify-center mb-6">
+                <svg class="w-5 h-5 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-lg sm:text-xl font-semibold tracking-tight text-appleBlack mb-2">
+                  3D &amp; Spatial Direction
+                </h4>
+                <p class="text-sm sm:text-base text-appleMuted leading-relaxed">
+                  Tactile lighting, optical precision, and UI choreography that elevate software and hardware alike.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
